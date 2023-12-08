@@ -12,7 +12,7 @@
         <label for="name">Lastname:</label>
         <input type="text" id="lastname" v-model="editedUser.lastname" class="form-control" required />
         <span v-if="!editedUser.lastname" class="error-message">Last name is required</span>
-        <span v-if="showLastnameErrorMessage" class="error-message">Invalid lastname format | lastname can only contain <b>a-z A-Z</b></span>
+        <span v-if="showLastnameErressage" class="error-message">Invalid lastname format | lastname can only contain <b>a-z A-Z</b></span>
       </div>
       <div class="form-group">
         <label for="phone">Phone:</label>
